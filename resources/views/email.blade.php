@@ -5,16 +5,7 @@
     <title></title>
   </head>
   <body>
-    <ul>
 
-
-       @foreach ($uzdevumi as $uzdevums)
-
-        <li>{{ $uzdevums->description }}</li>
-
-      @endforeach
-
-    </ul>
-
+      <p>Tests iziets!</p>
   </body>
 </html>

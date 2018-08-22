@@ -59,14 +59,22 @@ Route::get('abc/tasks/{task}', function ($id) {
     return view('abc', compact("tasks"));
 });
 
-Route::get('StartaLapa', function () {
-    return view('StartaLapa');
-});
+Route::get('posts', 'PostsController@index');
 
-Route::get('BlogaIeraksts', function () {
-    return view('BlogaIeraksts');
-});
+Route::get('posts/{id}', 'PostsController@show');
 
-Route::get('StatiskaLapa', function () {
-    return view('StatiskaLapa');
-});
+Route::get('form', 'FormController@index');
+
+Route::post('form/submit', 'FormController@store');
+
+//Route::get('abc', function () {
+  //  $uzdevumi = DB::table("test")->get();
+  //  return view('abc', compact('uzdevumi'));
+//});
+
+//Route::get('abc/{uzdevums}', function ($id) {
+  //  //dd($id);
+    //$uzdevums = DB::table("test")->find($id);
+  //  //dd($uzdevums);
+  //  return view('uzdevumi.show', compact('uzdevumi'));
+//});
