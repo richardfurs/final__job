@@ -26,3 +26,9 @@
   background-color: rgba(0, 0, 0, 0.03);
   margin-top: 100%;
   }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+  }

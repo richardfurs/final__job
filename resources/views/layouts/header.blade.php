@@ -7,8 +7,10 @@
     <link rel="stylesheet" type="text/css" href="/css/master.css">
   </head>
   <body>
+
+      <!--Header-->
+      
       <div class="container">
-        <!--Header-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="/posts">Final job</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
